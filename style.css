@@ -1,7 +1,53 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Yeseva+One&display=swap');
-
 body {
   font-family: 'Poppins', serif;
-  /* font-family: 'Yeseva One', serif; */
+}
+body h1,
+p {
+  margin: 0;
+}
+.flexiable-container {
+  display: flex;
+  margin: 0 auto;
+}
+.half-width {
+  width: 50%;
+}
+.container {
+  width: 80%;
+}
+/* Header Seciton CSS */
+.content-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+}
+.content-area h1 {
+  font-family: 'Yeseva one';
+  font-size: 60px;
+  font-weight: 400;
+  border-left: 4px solid #ff5959;
+  padding-left: 15px;
+}
+.content-area h1 span {
+  color: #ffad5a;
+}
+.content-area p {
+  font-size: 18px;
+}
+.button a {
+  background-color: #ff5959;
+  display: inline-block;
+  padding: 10px 25px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+header .avatar {
+  text-align: center;
+}
+.avatar img {
+  width: 60%;
 }
