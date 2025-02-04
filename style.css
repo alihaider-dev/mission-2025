@@ -17,6 +17,9 @@ p {
 .container {
   width: 80%;
 }
+.highlite {
+  color: #ffad5a;
+}
 /* Header Seciton CSS */
 .content-area {
   display: flex;
@@ -31,9 +34,7 @@ p {
   border-left: 4px solid #ff5959;
   padding-left: 15px;
 }
-.content-area h1 span {
-  color: #ffad5a;
-}
+
 .content-area p {
   font-size: 18px;
 }
@@ -50,4 +51,37 @@ header .avatar {
 }
 .avatar img {
   width: 60%;
+}
+
+/* Mission Section CSS */
+.mission {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-top: 50px;
+}
+.mission h1 {
+  font-size: 40px;
+  text-align: center;
+}
+.mission .items {
+  display: flex;
+  gap: 20px;
+  /* width: 100%; */
+}
+.items .item {
+  border-radius: 20px;
+  padding: 30px;
+}
+.items .item img {
+  width: 150px;
+}
+#item1 {
+  background-color: #4f9da61a;
+}
+#item2 {
+  background-color: #ff8b591a;
+}
+#item3 {
+  background-color: #fff4d6;
 }
